@@ -10,14 +10,12 @@ fn main(){
         digit /=10;
         no_of_digits -=1;
     } 
-
     println!("Reverse of number is {}",answer);
     println!("original_digit{}", original_digit);
     if original_digit == answer{
 
         println!("It is a pallendrom {}",original_digit);
     }
-
 
 }
 
